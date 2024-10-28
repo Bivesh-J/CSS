@@ -1,0 +1,80 @@
+/* Style for body */
+body {
+    font-family: Arial, sans-serif; /* Modify the font family */
+    font-size: 16px; /* Modify the font size */
+}
+
+/* Style for header */
+header {
+    background-color: #4CAF50; /* Modify the background color */
+}
+
+/* Style for nav */
+nav {
+    display: inline-block; /* Use inline-block for nav */
+    width: 80%; /* Set the width to 80% */
+    background-color: #333; /* Modify the background color */
+}
+
+/* Style for nav images */
+nav img {
+    width: 10%; /* Set the width of nav image */
+}
+
+/* Style for main */
+main {
+    background-color: #f4f4f4; /* Modify the background color */
+    font-size: 18px; /* Modify the font size */
+}
+
+/* Style for footer */
+footer {
+    background-color: #222; /* Modify the background color */
+    color: white; /* Ensure text is visible */
+}
+
+/* Style for grid class */
+.grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 40%); /* Two columns */
+    justify-content: center; /* Aligns items horizontally */
+    align-items: start; /* Aligns items at the start */
+    row-gap: 20px; /* Adjusts the space between rows */
+}
+
+/* Style for images in grid */
+.grid img {
+    width: 100%; /* Images will take full width of the grid cell */
+}
+
+/* Style for flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-around; /* Adjust spacing */
+}
+
+/* Style for h1 */
+h1 {
+    text-align: center; /* Modify text alignment */
+    font-family: 'Georgia', serif; /* Modify font family */
+    color: #333; /* Modify color */
+}
+
+/* Style for paragraphs */
+p {
+    line-height: 1.6; /* Modify line height */
+}
+
+/* Skip link styling */
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+    transition: left 0.3s, top 0.3s;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+}
